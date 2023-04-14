@@ -7,4 +7,4 @@
 - срока действия;
 - CVV / CVN номера.
 
-![Результат](blob:https://web.telegram.org/7ab95fba-0e88-4c80-8cee-12799d8e13e1)
+![Результат](https://avatars.mds.yandex.net/get-images-cbir/9106846/-vBR5VBjSt1mMsZbbRRipg2263/ocr)
