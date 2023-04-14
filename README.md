@@ -7,4 +7,4 @@
 - срока действия;
 - CVV / CVN номера.
 
-![Результат](https://avatars.mds.yandex.net/get-images-cbir/9106846/-vBR5VBjSt1mMsZbbRRipg2263/ocr)
+![Результат](https://avatars.mds.yandex.net/get-images-cbir/9462544/2o0kzszBFf3kZ-5q9SUJCw1911/ocr)
