@@ -1,14 +1,13 @@
 .container {
-	 display: grid;
-  max-width: 751px;
-/*  height: 381px;*/
+	display: grid;
+    max-width: 751px;
 
 height: auto;
- border: 1px solid black;
-  margin-left: 50px;
-  margin-top: 50px ;
-  background-image: url("fon.jpg");
-  color: white;
+   border: 1px solid black;
+   margin-left: 50px;
+   margin-top: 50px ;
+   background-image: url("fon.jpg");
+   color: white;
 }
 
 .wrapper {
@@ -22,61 +21,59 @@ height: auto;
 	font-size: 18px; 
 	text-transform: uppercase;
 	font-family: cursive;
-  width: 401px;
-  height: auto;
-  background-color: #A0522D;
-  margin-top: 50px;
-  color: #000080;
+    width: 401px;
+    height: auto;
+    background-color: #A0522D;
+    margin-top: 50px;
+    color: #000080;
 }
 
 form {
 	padding-bottom: 30px ;
-		display: flex;
-			flex-direction: column;
-			align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
-		}
+label {
+	margin: 10px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 18px;
+	color: #EE82EE;
+	font-family: cursive;
+}
 
-		label {
-			margin: 10px 0;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			font-size: 18px;
-			color: #EE82EE;
-			font-family: cursive;
-		}
+.expiry label {
+	display: inline;
+	margin: 5px;
+}
 
-	.expiry label {
-			display: inline;
-			margin: 5px;
-		}
+.expiry input {
+	width: 70px;
+}
 
-		.expiry input {
+input {
+	margin: 20px 0;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	font-size: 16px;
+	width: 300px;
+	max-width: 100%;
+	text-align: center;
+	outline: none;
+	font-family: cursive;
+}
 
-			width: 70px;
-		}
+input[type="submit"] {
+	background-color: #A0522D;
+	color: #000080;
+	cursor: pointer;
+}
 
-		input {
-			margin: 20px 0;
-			padding: 10px;
-			border-radius: 5px;
-			border: none;
-			box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-			font-size: 16px;
-			width: 300px;
-			max-width: 100%;
-			text-align: center;
-			outline: none;
-			font-family: cursive;
-		}
-
-		input[type="submit"] {
-			background-color: #A0522D;
-			color: #000080;
-			cursor: pointer;
-		}
-
-		input[type="submit"]:hover {
-			background-color: #8B4513;
-		}
+input[type="submit"]:hover {
+	background-color: #8B4513;
+}
